@@ -1,0 +1,103 @@
+AB 70 00  //ADC_shift	ADC_de_set	/	ADC_mode 70:mod0;71:mod1;72:mod2
+AD 0A 00  //ADC_col_border
+AE 58 00  //ADC_col_end
+AF 02 00  //ADC_col_end //0x258(include darkline)
+B8 32 00  //num_row_max_1
+B9 00 00  //num_row_max_1
+B0 64 00  //ADC_col_start_1
+B1 00 00  //ADC_col_start_1 startX 0x0064
+B2 E4 00  //ADC_col_end_1
+B3 00 00  //ADC_col_end_1	endX 0x00E4
+E4 64 00  //ADC_row_start_1	
+E5 00 00  //ADC_row_start_1	startY 0x0064
+E6 E4 00  //ADC_row_end_1
+E7 00 00  //ADC_row_end_1	endY 0x00E4
+B4 2C 00  //ADC_col_start_2
+B5 01 00  //ADC_col_start_2	startX2 0x012C
+B6 AC 00  //ADC_col_end_2
+B7 01 00  //ADC_col_end_2	endX2	0x01AC
+E8 2C 00  //ADC_row_start_2
+E9 01 00  //ADC_row_start_2	startY2	0x012C
+EA AC 00  //ADC_row_end_2
+EB 01 00  //ADC_row_end_2	endY2	0x1AC
+80 3B 00  //P1
+81 04 00  //P1
+82 A9 00  //P2
+83 02 00  //P2
+84 33 00  //P3
+85 03 00  //P3
+86 00 00  //P3
+87 58 00  //P4
+88 0D 00  //P4
+89 1F 00  //p_STV_cycle_num
+8A 01 00  //p_STV_high_clk
+8B 01 00  //p_STV_low_clk
+8C C8 00  //P5
+8D 00 00  //P5
+8E 00 00  //P5
+8F 0E 00  //P6
+90 00 00  //P6
+91 17 00  //P7
+92 01 00  //P7
+93 2C 00  //P8
+94 02 00  //P8
+95 45 00  //P9
+96 00 00  //P9
+97 38 00  //P10
+98 00 00  //P10
+99 38 00  //P11
+9A 00 00  //P11
+9B 57 00  //P12
+9C 04 00  //P12
+9D D0 00  //P13
+9E 00 00  //P13
+9F 37 00  //P14
+A0 00 00  //P14
+A1 37 00  //P15
+A2 00 00  //P15
+A3 84 00  //P16
+A4 03 00  //P16
+A5 90 00  //P17
+A6 01 00  //P17
+A7 F7 00  //P18
+A8 05 00  //P18
+A9 28 00  //P19
+AA 01 00  //XAO_PIRST_CTRL
+AC 04 00  //ADC_col_start
+BA C8 00  //num_row_max_2
+BB 00 00  //num_row_max_2 
+C1 00 00  ///	/	/	/	/	/	pol_led_en	capture_forever
+C2 02 00  //num_dark_led[7:4]	num_dark_led[3:0]
+C3 00 00  //active_frame_h
+C4 02 00  //active_frame_l
+C5 FF 00  //active_cap_h
+C6 FF 00  //active_cap_l
+C7 00 00  //num_dly
+C8 08 00  //value_std_fifo[15:8]
+C9 00 00  //value_std_fifo[7:0]
+CA 05 00  //num_active_fire
+CB 05 00  //num_fm_dly
+CC 02 00  //hv_thres	half_fifo_shift
+CD 81 00  //D2A_REFINT_SEL 	D2A_AMP_SEL
+CE 08 00  //กก/	กก/	D2A_SLEEP_IRST	D2A_I_BUF
+CF 5F 00  //D2P_VCOM2VEE  	D2P_VCOM2VDD   	D2P_VCOM2VCOM    	D2P_ENHV 	D2A_PD 	D2A_PDAD 	D2A_PDBGP  	D2A_PDCK   
+D0 41 00  //i2c_set	D2A_SWE     	D2A_TST   	D2A_EXREF 	D2A_EXVBG  	D2A_TSTADCB  
+D1 10 00  //debug_sel	D2A_TESTA 	D2A_RBG	D2A_TE
+D2 4C 00  ///	D2A_REFSEL	D2A_I_ADC
+D3 78 00  //D2A_I_INT	D2A_I_REF
+D4 60 00  //D2A_CSELX	/	D2A_RSELB
+D5 00 00  //dly_set	p_STV_cycle_flag	p_clk_fast_flag
+D6 04 00  //clk_sw	D2A_TESTBG	/	/	/	D2A_BG_TRIM
+D7 00 00  //FIRE_ENABLE	D2P_PU_EN18	/	/	D2A_OSC_ITUNE	D2A_OSC_TESTEN
+D8 44 00  //\\ OSC FREQUNCE 55MHZ CLK
+D9 40 00  //intn_ext_sw	D2A_IREF_TRIM	D2A_BIAS_TESTEN	D2A_BIASEN
+DA 00 00  ///	/	/	D2A_LDO18EN 	D2A_LDO18_ITUNE   
+DB 23 00  //\\ LDO18
+DC CB 00  //num_fire_cmd	num_fire_normal_frame	num_fire_stv_frame
+DD A6 00  //fire_cmd2	fire_cmd1
+DE 30 00  //fire_cmd4	fire_cmd3
+DF 10 00  //fire_cmd6	fire_cmd5
+EC FF 00  //D2A_mask
+ED FF 00  //D2A_mask
+EE 88 00  //VGG setting	VEE setting
+EF 88 00  //VCOM setting	I2C OSC setting

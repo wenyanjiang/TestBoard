@@ -1,0 +1,72 @@
+Bus Hound 6.01 capture on Windows Vista Service Pack 1 (x64). Complements of www.perisoft.net
+
+  Device - Device ID (followed by the endpoint for USB devices)
+            (41) OXi Technology
+  Length - Total transfer length
+  Phase  - Phase Type
+            IN    Data in transfer           
+            OUT   Data out transfer          
+  Data   - Hex dump of the data transferred
+  Descr  - Description of the phase
+  Cmd... - Position in the captured data
+
+ree ram size:117520
+Device  Length    Phase  Data                                                                                                    Description                       Cmd.Phase.Ofs(rep)
+------  --------  -----  ------------------------------------------------------------------------------------------------------  --------------------------------  ------------------
+  41.1       512  OUT    55 03 02 00  00 fa ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  U...............................         1.1.0        
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.32       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.64       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.96       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.128      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.160      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.192      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.224      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.256      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.288      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.320      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.352      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.384      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.416      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.448      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         1.1.480      
+  41           0  OUT                                                                                                                                                     2.1.0        
+  41.1        64  IN     f0 00 ff ff  8f 3f 01 08  36 10 11 00  21 43 02 08  cc ec 01 08  00 e0 00 61  1c 43 02 08  00 00 00 61  .....?..6...!C.........a.C.....a         3.1.0        
+                         01 00 00 00  12 00 00 00  81 00 00 00  cb 25 01 08  81 00 00 00  12 00 00 00  00 00 00 00  00 00 00 00  .............%..................         3.1.32       
+  41.1       512  OUT    55 08 00 02  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  U...............................         4.1.0        
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.32       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.64       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.96       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.128      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.160      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.192      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.224      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.256      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.288      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.320      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.352      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.384      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.416      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.448      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         4.1.480      
+  41           0  OUT                                                                                                                                                     5.1.0        
+  41.1        64  IN     f0 00 ff ff  79 43 01 08  36 10 11 00  21 43 02 08  dc ec 01 08  00 00 00 81  20 43 02 08  00 00 00 61  ....yC..6...!C.......... C.....a         6.1.0        
+                         01 00 00 00  12 00 00 00  81 00 00 00  cb 25 01 08  81 00 00 00  12 00 00 00  00 00 00 00  00 00 00 00  .............%..................         6.1.32       
+  41.1       512  OUT    55 02 0c e4  00 01 00 0e  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  U...............................         7.1.0        
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.32       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.64       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.96       
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.128      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.160      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.192      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.224      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.256      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.288      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.320      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.352      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.384      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.416      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.448      
+                         ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ff ff ff ff  ................................         7.1.480      
+  41           0  OUT                                                                                                                                                     8.1.0        
+  41.1        64  IN     f0 00 ff ff  b3 3e 01 08  01 00 00 00  64 0a 00 00  00 00 00 00  00 c8 a4 40  00 00 00 00  00 c8 a9 40  .....>......d..........@.......@         9.1.0        
+                         00 00 00 00  00 fa a9 40  00 00 00 00  00 00 39 c0  e7 ff ff ff  12 00 00 00  00 00 00 00  00 00 00 00  .......@......9.................         9.1.32       

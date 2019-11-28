@@ -1,0 +1,16 @@
+2019-08-02 16:38:00,017 [INFO] Activator:176 - 
+
+
+2019-08-02 16:38:00,024 [INFO] Activator:177 - !SESSION log4j initialized
+2019-08-02 16:47:40,361 [INFO] Activator:176 - 
+
+
+2019-08-02 16:47:40,364 [INFO] Activator:177 - !SESSION log4j initialized
+2019-08-02 16:48:39,020 [ERROR] ApiDbMcu:1398 - Can't use Application install path:
+2019-08-02 16:48:52,713 [WARN] RulesReader:54 - Compatibility file://mcu/compatibility.xml not found
+2019-08-02 18:26:21,244 [INFO] Activator:176 - 
+
+
+2019-08-02 18:26:21,259 [INFO] Activator:177 - !SESSION log4j initialized
+2019-08-02 18:26:23,894 [ERROR] ApiDbMcu:1398 - Can't use Application install path:
+2019-08-02 18:26:37,599 [WARN] RulesReader:54 - Compatibility file://mcu/compatibility.xml not found

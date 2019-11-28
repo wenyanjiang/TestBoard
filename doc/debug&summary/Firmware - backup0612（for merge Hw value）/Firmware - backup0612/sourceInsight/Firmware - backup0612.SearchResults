@@ -1,0 +1,403 @@
+---- USB_Rx_Buffer Matches (592 in 5 files) ----
+Bsp.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):extern uint8_t USB_Rx_Buffer[];
+Bsp.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[12+i] = USB_Rx_Buffer[i+2];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):extern  uint8_t USB_Rx_Buffer[];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Cmd.Byte[1] = USB_Rx_Buffer[0];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Cmd.Byte[0] = USB_Rx_Buffer[1];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				switch(USB_Rx_Buffer[3])
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				switch(USB_Rx_Buffer[3])
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Timer=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Main.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):extern uint8_t USB_Rx_Buffer[];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	DCD_EP_PrepareRx (&USB_OTG_dev,CDC_OUT_EP,(uint8_t *)USB_Rx_Buffer,Receivelength);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	memcpy(ReceiveData,USB_Rx_Buffer,Receivelength);	
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://			temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://			SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[num+(cnnt-1)*512]=USB_Rx_Buffer[num];//from sdata[0] store data
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(cnnt-1)*512]=USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==0x02)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[5+num+(code_cnt-1)*512]=USB_Rx_Buffer[num];  //拼装4kdata
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[10] == 0xff) && (USB_Rx_Buffer[11] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					//EndByteEN = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CodeLength = (USB_Rx_Buffer[2]<<24)|(USB_Rx_Buffer[3]<<16)|(USB_Rx_Buffer[4]<<8)|(USB_Rx_Buffer[5]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CheckCRC = (USB_Rx_Buffer[8]<<8)|(USB_Rx_Buffer[9]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[10] == 0xff) && (USB_Rx_Buffer[11] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					//EndByteEN = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CodeLength = (USB_Rx_Buffer[2]<<24)|(USB_Rx_Buffer[3]<<16)|(USB_Rx_Buffer[4]<<8)|(USB_Rx_Buffer[5]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CheckCRC = (USB_Rx_Buffer[8]<<8)|(USB_Rx_Buffer[9]); 
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	//			if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[8] == 0xff) && (USB_Rx_Buffer[9] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://					VMOD1=(USB_Rx_Buffer[2]<<8)|USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://					VMOD2=(USB_Rx_Buffer[4]<<8)|USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://					BUF=(USB_Rx_Buffer[6]<<8)|USB_Rx_Buffer[7];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+4]  = USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+5]  = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+8]  = USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+9]  = USB_Rx_Buffer[4];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+12] = USB_Rx_Buffer[7];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://							Sdata[PARAMETER_SAVE_ADDR-FLASH_SAVE_ADDR+13] = USB_Rx_Buffer[6];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					MOD1_MOD2_Buffer_Set(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[6] == 0xff) && (USB_Rx_Buffer[7] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Image_Size = ((USB_Rx_Buffer[2]<<8)|USB_Rx_Buffer[3])*((USB_Rx_Buffer[4]<<8)|USB_Rx_Buffer[5])<<1;//<<1 -> *2
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	//				Size_Reg[0] = USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	//				Size_Reg[1] = USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					RegParameter[num-2] = USB_Rx_Buffer[num];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					RegParameter[num-1] = USB_Rx_Buffer[num+1];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					RegParameter[num] = USB_Rx_Buffer[num+2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					/*if(USB_Rx_Buffer[num] == 0x94)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Dtime = ((USB_Rx_Buffer[num+4]<<8)|USB_Rx_Buffer[num+1])>>3;
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					else */if(USB_Rx_Buffer[num] == 0x9c)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Reg9d1 = USB_Rx_Buffer[num+4];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Reg9e1 = USB_Rx_Buffer[num+7];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					else if(USB_Rx_Buffer[num] == 0xf1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						WakeUpReg = USB_Rx_Buffer[num+1];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Reg9d2 = USB_Rx_Buffer[num+4];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Reg9e2 = USB_Rx_Buffer[num+7];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					else if((USB_Rx_Buffer[num] == 0xff)&&(USB_Rx_Buffer[num+1] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[num] == 0xff)&&(USB_Rx_Buffer[num+1] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Write_PMU(USB_Rx_Buffer[num],USB_Rx_Buffer[num+1]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[num+2]==0){}
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						else{delay_ms(USB_Rx_Buffer[num+2]);}
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(Touch_Scan(USB_Rx_Buffer[2]))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==0xff)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						IIC_WriteByte(Open_I2Cx,RT9367_addr,0x4f,USB_Rx_Buffer[3],1);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==0x00)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==0x00)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[3] == 0xff) && (USB_Rx_Buffer[4] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				CodeLength = (USB_Rx_Buffer[4]<<24)|(USB_Rx_Buffer[5]<<16)|(USB_Rx_Buffer[6]<<8)|(USB_Rx_Buffer[7]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Sdata[4]=USB_Rx_Buffer[2];//pack_num
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==temp) //pack num 4k/pack
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+9+6+USB_Rx_Buffer[4]+USB_Rx_Buffer[5]+USB_Rx_Buffer[6]+USB_Rx_Buffer[7]+USB_Rx_Buffer[8]+USB_Rx_Buffer[9];	
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if(USB_Rx_Buffer[2]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//code_size
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[6]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[7]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[8]);//crc
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[9]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp = 1+5+0x80+USB_Rx_Buffer[2]+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					mk510_which_gain = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					mk510_last_pack  = USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==62)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://					if(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==0x11)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://					if(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==49)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==3&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==4&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==5&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==6&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==38)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==3&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==4&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==5&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==6&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==61) //38
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==3&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==4&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==5&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==6&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Sdata[4]=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3]==55)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if((USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)||(USB_Rx_Buffer[2]==2&&USB_Rx_Buffer[3]==1))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[2]==1&&USB_Rx_Buffer[3]==1)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						temp=0x01+0x05+0x04+USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff)) 
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];		
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];		
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];		
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+12+0x10+1+USB_Rx_Buffer[2]+USB_Rx_Buffer[3]+USB_Rx_Buffer[4]+USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);//xx
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[4]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[5]);//yy
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(0x01,USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[3],USB_Rx_Buffer[4]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				Write_PMU(USB_Rx_Buffer[5],0x00);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				mk510_which_gain=USB_Rx_Buffer[3];		
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				temp=1+5+5+USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):								switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[3] == 5)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3] == 5)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						if(USB_Rx_Buffer[3] == 5)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					if(USB_Rx_Buffer[3] == 5)
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Line_H=USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Line_L=USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://				SPI1_ReadWriteByte(USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[2])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Power_MOD1_MOD2_Calibration(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Write_Module_Gain(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Read_Module_Gain(USB_Rx_Buffer);		
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Key_Detect(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Capture_Full_Image(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Capture_Win_Image(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Normal_Current_Detect(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				Module_SW_Vcom(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				ClearFrameSet(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				ReadClearFrameSetting(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				ReadFrameLineSetting(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				ModlueHardwareSetting(USB_Rx_Buffer);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				switch(USB_Rx_Buffer[3])
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[11] == 0xff) && (USB_Rx_Buffer[12] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				TouchMod = USB_Rx_Buffer[2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					TouchMod = USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					TouchMod = USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				led0pwmval=(USB_Rx_Buffer[2]<<8)|USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				led0pwmval=(USB_Rx_Buffer[2]<<8)|USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[14] == 0xff) && (USB_Rx_Buffer[15] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CodeLength = (USB_Rx_Buffer[2]<<24)|(USB_Rx_Buffer[3]<<16)|(USB_Rx_Buffer[4]<<8)|(USB_Rx_Buffer[5]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CheckCRC = (USB_Rx_Buffer[8]<<8)|(USB_Rx_Buffer[9]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):						Sdata[num]=USB_Rx_Buffer[num-2];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[14] == 0xff) && (USB_Rx_Buffer[15] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CodeLength = (USB_Rx_Buffer[2]<<24)|(USB_Rx_Buffer[3]<<16)|(USB_Rx_Buffer[4]<<8)|(USB_Rx_Buffer[5]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					CheckCRC = (USB_Rx_Buffer[8]<<8)|(USB_Rx_Buffer[9]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					temp = Read_PMU(USB_Rx_Buffer[2]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				if((USB_Rx_Buffer[2] == 0xff) && (USB_Rx_Buffer[3] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				else if((USB_Rx_Buffer[4] == 0xff) && (USB_Rx_Buffer[5] == 0xff))
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):					Write_PMU(USB_Rx_Buffer[2],USB_Rx_Buffer[3]);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://	VMOD1=(USB_Rx_Buffer[2]<<8)|USB_Rx_Buffer[3];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://	VMOD2=(USB_Rx_Buffer[4]<<8)|USB_Rx_Buffer[5];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://	BUF=(USB_Rx_Buffer[6]<<8)|USB_Rx_Buffer[7];
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):				memcpy(&Sdata[5]+num*512,USB_Rx_Buffer,512);
+Process.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			data[j] = USB_Rx_Buffer[j];
+Usbd_cdc_core.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\usb\usb_device\src):__ALIGN_BEGIN uint8_t USB_Rx_Buffer   [APP_RX_DATA_SIZE] __ALIGN_END ;
+Usbd_cdc_core.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\usb\usb_device\src):                   (uint8_t*)(USB_Rx_Buffer),
+Usbd_cdc_core.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\usb\usb_device\src):    DCD_EP_PrepareRx (pdev,CDC_OUT_EP,(uint8_t *)USB_Rx_Buffer,sizeof(USB_Rx_Buffer)); 
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):extern  uint8_t USB_Rx_Buffer[];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[i+372]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	SPI1_ReadWriteByte(USB_Rx_Buffer[2]);
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	SPI1_ReadWriteByte((uint8_t)((0x0e+USB_Rx_Buffer[2])>>8));
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	SPI1_ReadWriteByte((uint8_t)(0x0e+USB_Rx_Buffer[2]));
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://	if(USB_Rx_Buffer[67]==0xff)
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[6]=USB_Rx_Buffer[2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[7+i]=USB_Rx_Buffer[3+i];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		checksum=checksum+USB_Rx_Buffer[3+i];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		temp += USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	temp += USB_Rx_Buffer[124];temp += USB_Rx_Buffer[125];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	temp += USB_Rx_Buffer[126];temp += USB_Rx_Buffer[127];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[0] = USB_Rx_Buffer[124];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[1] = USB_Rx_Buffer[125];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[2] = USB_Rx_Buffer[126];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[3] = USB_Rx_Buffer[127];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		if((USB_Rx_Buffer[i+2] == 0xff)&&(USB_Rx_Buffer[i+3] == 0xff))
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			Sdata[i+1]=USB_Rx_Buffer[i+3];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			temp += USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):			temp += USB_Rx_Buffer[i+3];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[64+i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):		Sdata[128+i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://		Sdata[i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[0]=USB_Rx_Buffer[3];//由原来的大端模式改成小端模式
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[1]=USB_Rx_Buffer[2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user)://		Sdata[i]=USB_Rx_Buffer[i+2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[0]=USB_Rx_Buffer[5];		//length
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[1]=USB_Rx_Buffer[4];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[2]=USB_Rx_Buffer[3];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[3]=USB_Rx_Buffer[2];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[4]=USB_Rx_Buffer[9];		//CRC16
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[5]=USB_Rx_Buffer[8];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[6]=USB_Rx_Buffer[7];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[7]=USB_Rx_Buffer[6];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[8]=USB_Rx_Buffer[10];	//GAIN图张数+排列组合		
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[9]=USB_Rx_Buffer[11];
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[10]=USB_Rx_Buffer[12];	//darkline标志
+W25qxx.c (e:\all code\ae_g_project\stm32f407vg_board\doc\firmware - backup0612（for merge hw value）\firmware - backup0612\user):	Sdata[11]=USB_Rx_Buffer[13];
